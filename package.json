@@ -12,12 +12,12 @@
     "test": "test"
   },
   "devDependencies": {
-    "@types/node": "~10.14.4",
-    "@types/jest": "~24.0.11",
-    "typescript": "~3.3.400",
-    "jest": "~24.5.0",
-    "ts-jest": "^24.0.0",
-    "tslint": "~5.14.0",
+    "@types/node": "~10.17.14",
+    "@types/jest": "~24.9.1",
+    "typescript": "~3.7.5",
+    "jest": "~24.9.0",
+    "ts-jest": "^24.3.0",
+    "tslint": "~5.20.1",
     "tslint-eslint-rules": "^5.4.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1"
