@@ -1,5 +1,5 @@
 function findNumberOfStars(step: number):number {
-    let numOfStars = step * 2 + 1
+    let numOfStars = step * 2 +1
     return numOfStars
 }
 
