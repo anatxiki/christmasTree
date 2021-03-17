@@ -34,4 +34,4 @@ export default function christmasTree(height: number) {
     return "Can't make a tree with negative height, please try with a positive value."
 }
 
-console.log(christmasTree(4))
+console.log(christmasTree(10))
