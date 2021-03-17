@@ -1,13 +1,5 @@
-export default function christmasTree(height: number) {
-
-    if (height > 0 ){
-        return makeChristmasTree(height)
-    }
-    
-}
-
 function findNumberOfStars(step: number):number {
-    let numOfStars = step * 2 +1
+    let numOfStars = step * 2 + 1
     return numOfStars
 }
 
@@ -31,6 +23,15 @@ function makeChristmasTree(height:number):string {
     }
 
     return tree
+}
+
+export default function christmasTree(height: number) {
+
+    if (height > 0 ){
+        return makeChristmasTree(height)
+    }
+    
+    return
 }
 
 console.log(christmasTree(4))

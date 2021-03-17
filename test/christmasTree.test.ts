@@ -10,4 +10,7 @@ describe('Christmas Tree', () => {
         expect(christmasTree(2)).toEqual(' *\n***\n')
     })
 
+    it('should print a 7 step tree if height is 7', () => {
+        expect(christmasTree(7)).toEqual('      *\n     ***\n    *****\n   *******\n  *********\n ***********\n*************\n')
+    })
 })
