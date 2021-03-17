@@ -31,7 +31,7 @@ export default function christmasTree(height: number) {
         return makeChristmasTree(height)
     }
     
-    return
+    return "Can't make a tree with negative height, please try with a positive value."
 }
 
 console.log(christmasTree(4))
